@@ -8,11 +8,11 @@ int main()
     {
         unitcost=1.20;
     }
-    else if(units>=200 && units<400)
+    else if(units>=200&&units<400)
     {
         unitcost=1.50;
     }
-    else if(units>=400 && units<600)
+    else if(units>=400&&units<600)
     {
         unitcost=1.80;
     }
@@ -25,7 +25,7 @@ int main()
     {
         tbill=bill+(bill*0.15);
     }
-    else
+    else if(bill<400)
     {
         tbill=bill+100;
     }
